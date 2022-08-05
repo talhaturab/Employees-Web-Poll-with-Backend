@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+body {
+	background: linear-gradient(90deg, #c7c5f4, #776bcc);
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #252525;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.screen {
+	background: linear-gradient(90deg, #5d54a4, #7c78b8);
+	position: relative;
+	height: 600px;
+	width: 360px;
+	box-shadow: 0px 0px 24px #5c5696;
+}
+
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 156px;
+}
+
+.login__field {
+	padding: 20px 0px;
+	position: relative;
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #7875b5;
+}
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #d1d1d4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: 0.2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #6a679e;
+}
+
+.login__submit {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #d4d3e8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #4c489d;
+	box-shadow: 0px 2px 2px #5c5696;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #6a679e;
+	outline: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	text-decoration: none;
+}
+
+.nav li:first-child {
+	padding-left: 0;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style-type: none;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.flex-container {
+	display: flex;
+	/* background-color: DodgerBlue; */
+}
+
+.flex-item {
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+	background: linear-gradient(90deg, #5d54a4, #7c78b8);
+	box-shadow: 0px 0px 24px #5c5696;
+}
+
+.btn {
+	text-transform: uppercase;
+	margin: 35px auto;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.29);
+	cursor: pointer;
+	background: #fff;
+	font-size: 16px;
+	width: 250px;
+	position: relative;
+}
+
+.btn:hover {
+	border-color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.btn:focus {
+	outline: 0;
+	font-weight: 700;
+	border-width: 2px;
+}
+
+/** Nav CSS*/
+
+.nav-links {
+	display: flex;
+}
+
+/** Nav CSS*/
+
+/** User Profile CSS*/
+.profile-container {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+}
+.avatar {
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.profile-container-item {
+	margin: 10px;
+}
+
+/** User Profile CSS*/
+
+/** CreatePoll CSS*/
+.create-poll-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/** CreatePoll CSS*/
+
+/** ShowPoll CSS*/
+
+.showpoll-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.poll-user-avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.optionContainer {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	text-transform: capitalize;
+}
+
+.poll-option {
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.option-btn {
+	color: white;
+	font-weight: 700;
+	background: none;
+	background-color: gray;
+}
+
+button:disabled,
+button[disabled] {
+	border: 1px solid #999999;
+	background-color: #cccccc;
+	color: #666666;
+	cursor: not-allowed !important;
+}
+
+/** ShowPoll CSS*/
+
+/** leaderboard CSS*/
+
+.user-table-body{
+    text-align: center;
+}
+
+.user-table-data {
+	margin: 0 35%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/** leaderboard CSS*/
