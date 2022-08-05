@@ -7,6 +7,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+# Udacity Employee Polls App
+In the "Employee Surveys" Project is a web application that allows an employee to create surveys for their colleagues.
+This Backend project was bootstrapped with Laravel
+
+### `Installation`
+Install all project dependencies with composer Update
+
+### `Php artisan serve`
+
+Runs the app in the development mode.\
+
+It can run by running php artisan serve in the command line
+Open [http://localhost:8000](http://localhost:8000) to view it in your browser or use postman.
+
+# Getting Started
+You can use login credentials is DATA.js file located at src/utils/_DATA.js. Use these credentials to log into the web poll and have fun creating the poll, answering polls and viewing leaderboards
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
